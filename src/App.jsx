@@ -44,7 +44,6 @@ function App() {
   }
 
   const handleAdd = (id) => {
-    // let found = products.find(x => x.id == id)
     setBasket(elm => {
       return elm.map(item => item.id == id ? { ...item, count: item.count + 1, subtotal: item.price * (item.count + 1) } : item)
     })
