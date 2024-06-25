@@ -48,10 +48,18 @@ function App() {
 
   // const handleAdd = (id) => {
 
+<<<<<<< HEAD
   //   setBasket(elm => {
   //     return elm.map(item => item.id == id ? { ...item, count: item.count + 1, subtotal: item.price * (item.count + 1) } : item)
   //   })
   // }
+=======
+  const handleAdd = (id) => {
+    setBasket(elm => {
+      return elm.map(item => item.id == id ? { ...item, count: item.count + 1, subtotal: item.price * (item.count + 1) } : item)
+    })
+  }
+>>>>>>> ccd2b3183a4f076f72a073fd019ba11088b62e5f
 
   // const handleUnAdd = (id) => {
   //   let decrement = 0
